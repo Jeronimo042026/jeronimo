@@ -1,0 +1,41 @@
+#sobre {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(104, 220, 104) ;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+#sobre h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding: 10px;
+}
+
+#sobre img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 200px;
+    border: 2px solid black;
+}
+
+#sobre img:hover {
+    border: 2px solid white;
+}
+
+#sobre h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+#sobre p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 8px;
+}
+

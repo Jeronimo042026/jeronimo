@@ -1,0 +1,28 @@
+@media screen and (max-width:768px) {
+    header {
+        display: flex;
+        width: 100vw;
+        height: auto;
+    }
+
+    header menu {
+        display: none;
+    }
+
+    #projetos .card {
+        width: 80%;
+        height: 200px;
+        text-align: center;
+    }
+
+    .card .btn {
+        margin: auto;
+    }
+
+    #contatos .cont .icon-instagram {
+        display: block;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+
+}
