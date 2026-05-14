@@ -10,13 +10,23 @@
     }
 
     #projetos .card {
+        flex-direction: column;
         width: 80%;
         height: 200px;
         text-align: center;
     }
 
+    #projetos .card h3 {
+        font-size: 0.9em;
+    }
+
+    #projetos .card p {
+        font-size: 0.8em;
+    }
+
     .card .btn {
         margin: auto;
+        margin-bottom: 5px;
     }
 
     #contatos .cont .icon-instagram {
